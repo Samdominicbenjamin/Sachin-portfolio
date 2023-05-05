@@ -1,0 +1,222 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0;
+    margin: 0;
+}
+.nav1{
+    background-color: rgb(51, 212, 212);
+    top: 0;    
+    position: sticky;
+    height: 80px;
+    color: ;
+}
+
+.nav1 p a{
+    padding: 20px;
+    color: black;
+    padding-left: 100px;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nav1 p a:hover{
+    font-size: 22px;
+    color: rgb(35, 33, 33);
+    text-shadow: 2px 2px 3px rgb(224, 215, 168);
+ 
+}
+
+/* HOME */
+#home{
+    
+    height: 700px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    /* z-index: 1; */
+    justify-content: center;
+    
+}
+#home::before{
+    content:"" ;
+    position: absolute;
+    background-image: url('./images/mainhome.jpg');
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    z-index: -4;
+    opacity: 0.8;
+}
+.div1{
+    
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.head{
+    font-family:'Cursive';
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    
+}
+.btn1{
+    padding: 5px ;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+}
+.btn1:hover{
+    background-color: rgb(84, 30, 30);
+    font-size: 22px;
+}
+#img1{
+    padding-left: 20px;
+    border-radius: 15px 15px;
+    
+}
+#img3{
+    padding-left: 330px;
+    padding-bottom: 300px;
+    border-radius: 15px 15px;
+}
+#img2{
+    padding-left: 100px;
+    padding-bottom: 200px;
+    border-radius: 15px 15px;
+}
+#img4{
+    border: 15px;
+    border-radius: 15px 15px;
+}
+
+
+
+/* About */
+
+
+#about{
+    height: 800px;
+    font-size: 30px;
+          
+}
+
+.heading{
+    text-align: center;
+    background-color: rgb(51, 212, 212);
+    font-size: 30px;
+}
+.div3{
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(187, 244, 246);
+}
+
+
+/* Achievements */
+#achie{
+    height: 700px;
+    font-size: 30px;         
+}
+.div6{
+    
+    font-size: 19px;
+    padding-left: 20px;
+    height: 608px;
+    width: 600px;
+    border: 5px solid black;
+    background-color:rgb(240, 178, 209) ;
+    float: left;
+}
+.div7{
+    float: left;
+    height: 610px;
+}
+.div8{
+    font-size: 15px;
+    padding-left: 1060px;
+    height: 610px;
+    border: 5px solid black;
+    background-color:rgb(240, 178, 209) ;
+    
+}
+
+
+
+
+/* Videos */
+#videos{
+    height: 600px;
+    font-size: 30px;
+          
+}
+
+
+
+/* GALLERY */
+#gallery{
+    height: 700px;
+    font-size: 30px;
+          
+}
+.div10{
+    float: left;
+    width: 1168px;
+    height: 600px;
+}
+
+/* CONTACT */
+#contact{
+    height: 500px;
+    font-size: 30px;
+    
+}
+.div12{
+    height: 430px;
+    background-color: aquamarine;
+    width: 750px;
+    float: left;
+    padding: 10px;
+}
+.div13{
+    display: flex;
+    height: 100%;
+    background-color: rgb(135, 181, 165);
+    width: 740px;
+
+}
+#form{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    
+}
+.div14{
+    padding: 50px;
+    margin: 10px;
+    border: 5px;
+    border-color: black;
+    text-align: center;
+    
+}
+.btn2{
+    padding: 5px ;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+}
+.btn2:hover{
+    background-color: rgb(84, 30, 30);
+    font-size: 22px;
+}
+
+/* last navbar */
+.nav2{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+}
+.nav2 p a{
+    padding-left: 30px;
+}
+
+
